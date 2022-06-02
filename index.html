@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pruebas HTML</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Título H1</h1>
-    <h2>Título H2</h2>
-    <h3>Título H3</h3>
+    <h2 class="azulito">Título H2</h2>
+    <h3 class="azulito">Título H3</h3>
     <h4>Título H4</h4>
     <h5>Título H5</h5>
     <h6>Título H6</h6>
 
-    <p>
+    <h1 id="purple">Titulo 2 H1</h1>
+
+    <p id="parrafo" class="azulito">
         
         Párrafo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ad eum aliquam, voluptatum sint non impedit ab temporibus magnam, nisi cumque reiciendis provident quibusdam asperiores, iusto adipisci nihil. Dolor, repellendus.
 
@@ -27,8 +30,23 @@
         Etiqueta <strong>strong</strong> y etiqueta <em>énfasis</em>
 
     </p>
+    <strong>Este es otro strong</strong>
+    <p id="texto">
+        OTRO PARRAFO
+    </p>
 
-    <h2>Listas Desordenada</h2>
+    <div class="container">
+        <p>
+            Párrafo hijo de container
+        </p>
+        <div class="container2">
+            <p>
+                Párrafo hijo de container2. Nieto de container
+            </p>
+        </div>
+    </div>
+
+    <h2 class="color">Listas Desordenada</h2>
     <ul>
         <li>Frutas</li>
         <li>Verduras</li>
@@ -36,7 +54,7 @@
         <li>Pollo</li>
     </ul>
 
-    <h2>Lista Ordenada</h2>
+    <h2 class="color2">Lista Ordenada</h2>
     <ol>
         <li>Leer</li>
         <li>Hacer ejercicio</li>
@@ -71,6 +89,10 @@
 
     <div>
         <p>Párrafo 2</p>
+    </div>
+
+    <div class="div_background">
+
     </div>
 
     <form action="/accion" method="post">
@@ -128,6 +150,10 @@
 
 
     </form>
+
+    <div class="box_model">
+        BOX
+    </div>
 
 </body>
 </html>
